@@ -5,11 +5,8 @@ A Comparative Study of LS-GAN, WGAN, and WGAN-GP for Medical Image Generation
 This project aims to compare three popular Generative Adversarial Network (GAN) architectures on the MedMNIST dataset to analyze their effectiveness in generating realistic medical images.
 
 We explore and evaluate the performance of:
-
 🔹 LS-GAN (Least Squares GAN)
-
 🔹 WGAN (Wasserstein GAN)
-
 🔹 WGAN-GP (Wasserstein GAN with Gradient Penalty)
 
 🧪 Evaluation Metrics
@@ -39,9 +36,9 @@ Metric	Description
 ## 👨‍💻 Team & Collaborators
 
 - Prarabdha Pandey [https://github.com/Prarabdha14]
-- Kanika thomrbe [https://github.com/kanikathombre]
-- Atharv kulkarni [https://github.com/Kulkarni-ui]
-- Prathirth mohite [https://github.com/PRATHIRTH-M]
+- Kanika Thombre [https://github.com/kanikathombre]
+- Atharv Kulkarni [https://github.com/Kulkarni-ui]
+- Prathirth Mohite [https://github.com/PRATHIRTH-M]
 
 
 
