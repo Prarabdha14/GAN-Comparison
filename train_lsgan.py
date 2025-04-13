@@ -8,9 +8,7 @@ for epoch in range(epochs):
         valid = torch.ones(real_imgs.size(0), 1, device=device)
         fake = torch.zeros(real_imgs.size(0), 1, device=device)
 
-        # ---------------------
-        #  Train Generator
-        # ---------------------
+        #train generator
         optimizer_G.zero_grad()
         z = torch.randn(real_imgs.size(0), latent_dim).to(device)
         gen_imgs = generator(z)
@@ -19,9 +17,7 @@ for epoch in range(epochs):
         g_loss.backward()
         optimizer_G.step()
 
-        # ---------------------
-        #  Train Discriminator
-        # ---------------------
+        #train discriminator
         optimizer_D.zero_grad()
 
         real_loss = adversarial_loss(discriminator(real_imgs), valid)
