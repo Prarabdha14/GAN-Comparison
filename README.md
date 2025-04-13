@@ -16,10 +16,10 @@ We explore and evaluate the performance of:
 We used a combination of qualitative and quantitative metrics to compare models:
 
 Metric	Description
-🧠 Inception Score (IS)	Evaluates quality and diversity of generated images
-📉 Fréchet Inception Distance (FID)	Measures similarity between real and generated image distributions
-👁️ Visual Inspection	Side-by-side comparison of real vs generated outputs
-📊 TensorBoard Logging	Tracks training loss, generator/discriminator trends, and sample generations
+- Inception Score (IS)	Evaluates quality and diversity of generated images
+- Fréchet Inception Distance (FID)	Measures similarity between real and generated image distributions
+- Visual Inspection	Side-by-side comparison of real vs generated outputs
+- TensorBoard Logging	Tracks training loss, generator/discriminator trends, and sample generations
 
 🛠️ Tools & Technologies
 🐍 Python
