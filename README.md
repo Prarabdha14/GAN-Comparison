@@ -18,3 +18,13 @@ This project compares three different GAN variants — **LS-GAN**, **WGAN**, and
 - **TensorBoard:** For visualizing losses, image outputs, and logs
 
 
+## 👨‍💻 Team & Collaborators
+
+- Prarabdha Pandey [https://github.com/Prarabdha14]
+- Kanika thomrbe [https://github.com/kanikathombre]
+- Atharv kulkarni [https://github.com/Kulkarni-ui]
+- Prathirth mohite [https://github.com/PRATHIRTH-M]
+
+
+
+
